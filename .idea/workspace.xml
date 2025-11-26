@@ -4,7 +4,488 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e0d2610-1c13-4ec6-91bd-1e9bfbdcbeca" name="Changes" comment="" />
+    <list default="true" id="7e0d2610-1c13-4ec6-91bd-1e9bfbdcbeca" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/rnv_schema.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/appletv/appletv.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/appletv/appletv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/appletv/appletvremote.gen1.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/appletv/appletvremote.gen1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/appletv/appletvremote.gen2.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/appletv/appletvremote.gen2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/appletv/appletvremote.gen3.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/appletv/appletvremote.gen3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/appletv/appletvremote.gen4.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/appletv/appletvremote.gen4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/appletv/hifispeaker.and.appletv.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/appletv/hifispeaker.and.appletv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/appliances/air.conditioner.horizontal.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/appliances/air.conditioner.horizontal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/appliances/air.conditioner.vertical.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/appliances/air.conditioner.vertical.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/appliances/air.purifier.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/appliances/air.purifier.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/appliances/dehumidifier.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/appliances/dehumidifier.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/appliances/dishwasher.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/appliances/dishwasher.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/appliances/dryer.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/appliances/dryer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/appliances/heater.vertical.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/appliances/heater.vertical.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/appliances/humidifier.and.droplets.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/appliances/humidifier.and.droplets.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/appliances/humidifier.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/appliances/humidifier.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/appliances/robotic.vacuum.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/appliances/robotic.vacuum.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/appliances/washer.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/appliances/washer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/bathroom/bathtub.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/bathroom/bathtub.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/bathroom/pipe.and.drop.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/bathroom/pipe.and.drop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/bathroom/shower.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/bathroom/shower.handheld.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/bathroom/shower.handheld.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/bathroom/shower.sidejet.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/bathroom/shower.sidejet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/bathroom/shower.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/bathroom/sink.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/bathroom/sink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/bathroom/spigot.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/bathroom/spigot.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/bathroom/toilet.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/bathroom/toilet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/blinds/blinds.horizontal.closed.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/blinds/blinds.horizontal.open.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/blinds/blinds.vertical.closed.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/blinds/blinds.vertical.open.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/blinds/curtains.closed.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/blinds/curtains.open.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/blinds/roller.shade.closed.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/blinds/roller.shade.open.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/blinds/roman.shade.closed.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/blinds/roman.shade.open.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/circle/bed.double.circle.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/circle/bed.double.circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/circle/dishwasher.circle.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/circle/dishwasher.circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/circle/dryer.circle.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/circle/dryer.circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/circle/house.circle.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/circle/house.circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/circle/lightbulb.circle.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/circle/lightbulb.circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/circle/popcorn.circle.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/circle/popcorn.circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/circle/toilet.circle.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/circle/toilet.circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/circle/washer.circle.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/circle/washer.circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/custom/display.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/custom/pc.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/custom/pc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/custom/raspberry.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/custom/windows.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/door/door.french.closed.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/door/door.french.open.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/door/door.garage.closed.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/door/door.garage.closed.trianglebadge.exclamationmark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/door/door.garage.double.bay.closed.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/door/door.garage.double.bay.closed.trianglebadge.exclamationmark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/door/door.garage.double.bay.open.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/door/door.garage.double.bay.open.trianglebadge.exclamationmark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/door/door.garage.open.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/door/door.garage.open.trianglebadge.exclamationmark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/door/door.left.hand.closed.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/door/door.left.hand.open.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/door/door.right.hand.closed.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/door/door.right.hand.open.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/door/door.sliding.left.hand.closed.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/door/door.sliding.left.hand.open.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/door/door.sliding.right.hand.closed.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/door/door.sliding.right.hand.open.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/door/drop.keypad.rectangle.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/door/drop.keypad.rectangle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/door/entry.lever.keypad.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/door/entry.lever.keypad.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/door/entry.lever.keypad.trianglebadge.exclamationmark.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/door/entry.lever.keypad.trianglebadge.exclamationmark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/door/lock.open.trianglebadge.exclamationmark.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/door/lock.open.trianglebadge.exclamationmark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/door/lock.trianglebadge.exclamationmark.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/door/lock.trianglebadge.exclamationmark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/door/pedestrian.gate.closed.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/door/pedestrian.gate.open.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/door/video.doorbell.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/door/video.doorbell.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/environment/carbon.dioxide.cloud.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/environment/carbon.dioxide.cloud.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/environment/carbon.monoxide.cloud.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/environment/carbon.monoxide.cloud.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/fan/fan.and.light.ceiling.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/fan/fan.and.light.ceiling.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/fan/fan.ceiling.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/fan/fan.ceiling.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/fan/fan.desk.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/fan/fan.desk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/fan/fan.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/fan/fan.floor.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/fan/fan.floor.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/fan/fan.oscillation.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/fan/fan.oscillation.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/fan/fan.slash.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/fan/fan.slash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/fan/fan.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/furniture/bed.double.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/furniture/bed.double.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/furniture/cabinet.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/furniture/cabinet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/furniture/chair.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/furniture/chair.lounge.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/furniture/chair.lounge.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/furniture/chair.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/furniture/fireplace.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/furniture/fireplace.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/furniture/sofa.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/furniture/sofa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/furniture/stairs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/furniture/table.furniture.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/furniture/table.furniture.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/hifispeaker.and.homepod.badge.minus.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/hifispeaker.and.homepod.badge.minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/hifispeaker.and.homepod.badge.plus.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/hifispeaker.and.homepod.badge.plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/hifispeaker.and.homepod.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/hifispeaker.and.homepod.mini.badge.minus.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/hifispeaker.and.homepod.mini.badge.minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/hifispeaker.and.homepod.mini.badge.plus.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/hifispeaker.and.homepod.mini.badge.plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/hifispeaker.and.homepod.mini.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/hifispeaker.and.homepod.mini.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/hifispeaker.and.homepod.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/homepod.2.badge.minus.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/homepod.2.badge.minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/homepod.2.badge.plus.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/homepod.2.badge.plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/homepod.2.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/homepod.2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/homepod.and.appletv.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/homepod.and.appletv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/homepod.and.homepod.mini.badge.minus.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/homepod.and.homepod.mini.badge.minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/homepod.and.homepod.mini.badge.plus.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/homepod.and.homepod.mini.badge.plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/homepod.and.homepod.mini.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/homepod.and.homepod.mini.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/homepod.arrow.forward.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/homepod.arrow.forward.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/homepod.badge.minus.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/homepod.badge.minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/homepod.badge.plus.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/homepod.badge.plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/homepod.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/homepod.mini.2.badge.minus.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/homepod.mini.2.badge.minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/homepod.mini.2.badge.plus.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/homepod.mini.2.badge.plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/homepod.mini.2.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/homepod.mini.2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/homepod.mini.arrow.forward.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/homepod.mini.arrow.forward.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/homepod.mini.badge.minus.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/homepod.mini.badge.minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/homepod.mini.badge.plus.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/homepod.mini.badge.plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/homepod.mini.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/homepod.mini.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/homepod.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/homepodmini.and.appletv.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/homepod/homepodmini.and.appletv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/kitchen/cooktop.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/kitchen/cooktop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/kitchen/frying.pan.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/kitchen/frying.pan.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/kitchen/microwave.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/kitchen/microwave.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/kitchen/oven.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/kitchen/oven.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/kitchen/popcorn.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/kitchen/popcorn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/kitchen/refrigerator.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/kitchen/refrigerator.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/kitchen/stove.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/kitchen/stove.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/lamp/chandelier.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/lamp/chandelier.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/lamp/lamp.ceiling.inverse.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/lamp/lamp.ceiling.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/lamp/lamp.desk.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/lamp/lamp.desk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/lamp/lamp.floor.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/lamp/lamp.floor.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/lamp/lamp.table.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/lamp/lamp.table.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/light/light.beacon.max.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/light/light.beacon.max.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/light/light.beacon.min.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/light/light.beacon.min.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/light/light.cylindrical.ceiling.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/light/light.cylindrical.ceiling.inverse.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/light/light.cylindrical.ceiling.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/light/light.panel.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/light/light.panel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/light/light.recessed.3.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/light/light.recessed.3.inverse.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/light/light.recessed.3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/light/light.recessed.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/light/light.recessed.inverse.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/light/light.recessed.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/light/light.ribbon.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/light/light.ribbon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/light/light.strip.2.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/light/light.strip.2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/light/lightbulb.2.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/light/lightbulb.2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/light/lightbulb.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/light/lightbulb.led.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/light/lightbulb.led.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/light/lightbulb.led.wide.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/light/lightbulb.led.wide.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/light/lightbulb.max.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/light/lightbulb.max.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/light/lightbulb.min.badge.exclamationmark.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/light/lightbulb.min.badge.exclamationmark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/light/lightbulb.min.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/light/lightbulb.min.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/light/lightbulb.slash.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/light/lightbulb.slash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/light/lightbulb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/media/4k.tv.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/media/4k.tv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/media/av.remote.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/media/av.remote.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/media/hifireceiver.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/media/hifireceiver.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/media/hifispeaker.2.badge.minus.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/media/hifispeaker.2.badge.minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/media/hifispeaker.2.badge.plus.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/media/hifispeaker.2.badge.plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/media/hifispeaker.2.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/media/hifispeaker.2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/media/hifispeaker.arrow.forward.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/media/hifispeaker.arrow.forward.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/media/hifispeaker.badge.minus.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/media/hifispeaker.badge.minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/media/hifispeaker.badge.plus.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/media/hifispeaker.badge.plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/media/hifispeaker.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/media/hifispeaker.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/media/inset.filled.tv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/media/music.note.tv.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/media/music.note.tv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/media/party.popper.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/media/party.popper.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/media/photo.tv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/media/play.tv.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/media/play.tv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/media/sparkles.tv.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/media/sparkles.tv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/media/tv.and.hifispeaker.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/media/tv.and.mediabox.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/media/tv.and.mediabox.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/media/tv.badge.wifi.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/media/tv.badge.wifi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/media/tv.circle.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/media/tv.circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/media/tv.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/media/tv.slash.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/media/tv.slash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/media/tv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/media/videoprojector.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/media/videoprojector.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/media/web.camera.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/media/web.camera.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/misc/figure.walk.arrival.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/misc/figure.walk.departure.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/misc/homekit.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/misc/house.badge.wifi.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/misc/house.badge.wifi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/misc/house.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/misc/house.slash.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/misc/house.slash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/misc/house.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/misc/sprinkler.and.droplets.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/misc/sprinkler.and.droplets.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/misc/sprinkler.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/misc/sprinkler.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/misc/square.split.bottomrightquarter.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/misc/square.split.bottomrightquarter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/misc/wifi.router.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/misc/wifi.router.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.strip.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.strip.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.a.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.a.square.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.a.square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.a.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.b.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.b.square.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.b.square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.b.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.c.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.c.square.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.c.square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.c.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.d.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.d.square.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.d.square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.d.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.e.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.e.square.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.e.square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.e.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.f.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.f.square.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.f.square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.f.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.g.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.g.square.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.g.square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.g.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.h.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.h.square.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.h.square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.h.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.i.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.i.square.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.i.square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.i.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.j.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.j.square.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.j.square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.j.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.k.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.k.square.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.k.square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.k.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.l.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.l.square.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.l.square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.l.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.m.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.m.square.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.m.square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.m.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.n.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.n.square.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.n.square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.n.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.o.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.o.square.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.o.square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/poweroutlet/poweroutlet.type.o.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/switches/button.programmable.square.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/switches/button.programmable.square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/switches/button.programmable.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/switches/contact.sensor.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/switches/contact.sensor.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/switches/lightswitch.off.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/switches/lightswitch.off.square.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/switches/lightswitch.off.square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/switches/lightswitch.off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/switches/lightswitch.on.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/switches/lightswitch.on.square.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/switches/lightswitch.on.square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/switches/lightswitch.on.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/switches/sensor.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/switches/sensor.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/switches/switch.programmable.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/switches/switch.programmable.square.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/switches/switch.programmable.square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/switches/switch.programmable.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/transport/bus.doubledecker.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/transport/bus.doubledecker.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/transport/bus.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/transport/bus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/transport/cablecar.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/transport/cablecar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/transport/car.ferry.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/transport/car.ferry.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/transport/ferry.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/transport/ferry.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/transport/lightrail.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/transport/lightrail.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/transport/person.3.sequence.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/transport/tram.fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/transport/tram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/window/window.awning.closed.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/window/window.awning.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/window/window.casement.closed.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/window/window.casement.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/window/window.ceiling.closed.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/window/window.ceiling.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/window/window.horizontal.closed.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/window/window.horizontal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/window/window.shade.closed.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/window/window.shade.open.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/window/window.vertical.closed.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/window/window.vertical.open.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logos/homekit.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logos/rnv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/homebridgeApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AirPurifierControlModal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DeviceCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DeviceCardWrapper.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DeviceList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HomeScreen.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LampControlModal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PublicTransportMap.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RoundSlider/RoundSlider.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RoundSlider/domain/animation-provider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RoundSlider/domain/circle-provider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RoundSlider/domain/common-provider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RoundSlider/domain/connection-provider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RoundSlider/domain/data-provider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RoundSlider/domain/defaults-provider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RoundSlider/domain/pointers-provider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RoundSlider/domain/svg-provider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RoundSlider/domain/ticks-provider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RoundSlider/ui/Circle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RoundSlider/ui/Connection.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RoundSlider/ui/InnerCircle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RoundSlider/ui/Pointer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RoundSlider/ui/Pointers.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RoundSlider/ui/Text.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RoundSlider/ui/Ticks.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/mappings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/overrides.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/stations.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useHomebridge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/helpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,40 +494,87 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="JSX File" />
         <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/homeappclone" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/heater-rebuild" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Niclassslua/homeappclone.git",
+    "accountId": "cb5da818-0a4a-4708-80ec-552b9d1f8d74"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2szEtasOylPXoPJ1UyA4JEgmBcg" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Node.js.App.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.backend.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/niclasfrey/WebstormProjects/homeappclone/public/icons/transport&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.start App.js.executor&quot;: &quot;Run&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/icons/transport" />
+      <recent name="$PROJECT_DIR$/public/logos" />
+      <recent name="$PROJECT_DIR$/src/data" />
+      <recent name="$PROJECT_DIR$/src/components/RoundSlider" />
+      <recent name="$PROJECT_DIR$/public/icons/custom" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/logos" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-WS-242.20224.426" />
+        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-WS-252.28238.10" />
       </set>
     </attachedChunks>
   </component>
@@ -59,11 +587,41 @@
       <option name="presentableId" value="Default" />
       <updated>1739450218735</updated>
       <workItem from="1739450219738" duration="4810000" />
-      <workItem from="1740061959485" duration="342000" />
+      <workItem from="1740061959485" duration="357000" />
+      <workItem from="1740062333954" duration="63627000" />
+      <workItem from="1740274278031" duration="8396000" />
+      <workItem from="1740337407270" duration="49318000" />
+      <workItem from="1740526101228" duration="4959000" />
+      <workItem from="1740618910976" duration="43000" />
+      <workItem from="1740664784557" duration="3476000" />
+      <workItem from="1740687868163" duration="8953000" />
+      <workItem from="1740710788720" duration="1120000" />
+      <workItem from="1740711917974" duration="11819000" />
+      <workItem from="1740764563082" duration="2584000" />
+      <workItem from="1740767296311" duration="4545000" />
+      <workItem from="1740786802987" duration="5543000" />
+      <workItem from="1740840296903" duration="21456000" />
+      <workItem from="1740930418293" duration="37749000" />
+      <workItem from="1741654550029" duration="6000" />
+      <workItem from="1744136723974" duration="878000" />
+      <workItem from="1744181305461" duration="1660000" />
+      <workItem from="1744267494797" duration="5000" />
+      <workItem from="1753957665989" duration="293000" />
+      <workItem from="1764117419328" duration="2898000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/RoundSlider/ui/Pointer.jsx</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

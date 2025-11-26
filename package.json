@@ -3,20 +3,38 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@maptiler/leaflet-maptilersdk": "^4.0.2",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.2.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.8.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "leaflet": "^1.9.4",
+    "leaflet-edgebuffer": "^1.0.6",
+    "leaflet.locatecontrol": "^0.83.1",
+    "mapbox": "^1.0.0-beta10",
+    "maplibre-gl": "^5.1.1",
+    "mz-math": "^3.0.26",
+    "mz-react-round-slider": "^1.0.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-scripts": "5.0.1",
+    "react-icons": "^5.5.0",
+    "react-leaflet": "^5.0.0",
+    "react-leaflet-markercluster": "^5.0.0-rc.0",
+    "react-modal": "^3.16.3",
+    "react-scripts": "^5.0.1",
+    "react-svg": "^16.3.0",
+    "rnv-data-client": "^1.0.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "tailwind": "tailwindcss"
   },
   "eslintConfig": {
     "extends": [
@@ -35,5 +53,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17"
   }
 }

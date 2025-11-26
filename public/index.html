@@ -1,43 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+<html lang="de">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HomeAppClone</title>
+    <style>
+        .leaflet-container {
+            width: 100vw;
+            height: 100vh;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+        .leaflet-control-attribution {
+            display: none;
+        }
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+        /* Dark Mode Overrides für Marker Cluster */
+        .marker-cluster.marker-cluster-small {
+            background-color: rgba(0, 100, 0, 0.8) !important; /* dunkler Grünton */
+        }
+        .marker-cluster.marker-cluster-small div {
+            background-color: rgba(0, 120, 0, 0.8) !important; /* etwas helleres Grün */
+            color: #fff !important;
+        }
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+        .marker-cluster.marker-cluster-medium {
+            background-color: rgba(120, 80, 0, 0.8) !important; /* dunkler Gold-/Braunton */
+        }
+        .marker-cluster.marker-cluster-medium div {
+            background-color: rgba(140, 100, 0, 0.8) !important;
+            color: #fff !important;
+        }
+
+        .marker-cluster.marker-cluster-large {
+            background-color: rgba(100, 0, 0, 0.8) !important; /* dunkler Rotton */
+        }
+        .marker-cluster.marker-cluster-large div {
+            background-color: rgba(120, 0, 0, 0.8) !important;
+            color: #fff !important;
+        }
+
+        /* Fallback für ältere IE-Versionen */
+        .leaflet-oldie .marker-cluster-small {
+            background-color: rgb(0, 100, 0) !important;
+        }
+        .leaflet-oldie .marker-cluster-small div {
+            background-color: rgb(0, 120, 0) !important;
+            color: #fff !important;
+        }
+
+        .leaflet-oldie .marker-cluster-medium {
+            background-color: rgb(120, 80, 0) !important;
+        }
+        .leaflet-oldie .marker-cluster-medium div {
+            background-color: rgb(140, 100, 0) !important;
+            color: #fff !important;
+        }
+
+        .leaflet-oldie .marker-cluster-large {
+            background-color: rgb(100, 0, 0) !important;
+        }
+        .leaflet-oldie .marker-cluster-large div {
+            background-color: rgb(120, 0, 0) !important;
+            color: #fff !important;
+        }
+
+        /* Genereller Override für Text in Clustern */
+        .marker-cluster div,
+        .marker-cluster span {
+            color: #fff !important;
+        }
+
+    </style>
+</head>
+<body>
+<div id="root"></div>
+</body>
 </html>
