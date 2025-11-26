@@ -5,10 +5,12 @@ import PublicTransportMap from './PublicTransportMap';
 import useHomebridge from '../hooks/useHomebridge';
 import LampControlModal from './LampControlModal';
 import AirPurifierControlModal from './AirPurifierControlModal';
+import HeaterControlModal from './HeaterControlModal';
+import HeaterMockPanel from './HeaterMockPanel';
 import { ReactSVG } from "react-svg";
 
 export default function HomeScreen() {
-    const { devices, toggleDevice, updateDeviceSettings } = useHomebridge();
+    const { devices, toggleDevice, updateDeviceSettings, updateLocalDevice } = useHomebridge();
     const [selectedDevice, setSelectedDevice] = useState(null);
     const [view, setView] = useState('smartHome'); // 'smartHome' oder 'oepnv'
 
@@ -25,11 +27,15 @@ export default function HomeScreen() {
 
     const handleDeviceChange = (settings) => {
         if (!selectedDevice) return;
-        const desiredOn = typeof settings.isOn !== 'undefined' ? settings.isOn : settings.brightness > 0;
+        const desiredOn = selectedDevice.humanType === "Thermostat"
+            ? (typeof settings.isOn !== 'undefined' ? settings.isOn : selectedDevice.isOn)
+            : (typeof settings.isOn !== 'undefined' ? settings.isOn : settings.brightness > 0);
         if (desiredOn !== selectedDevice.isOn) {
             toggleDevice(selectedDevice);
         }
         updateDeviceSettings(selectedDevice, settings);
+        updateLocalDevice(selectedDevice.id, settings);
+        setSelectedDevice((prev) => prev ? { ...prev, ...settings } : prev);
     };
 
     useEffect(() => {
@@ -89,6 +95,7 @@ export default function HomeScreen() {
 
             {view === 'smartHome' ? (
                 <>
+                    <HeaterMockPanel />
                     <DeviceList
                         devicesByRoom={devicesByRoom}
                         onToggle={toggleDevice}
@@ -97,6 +104,12 @@ export default function HomeScreen() {
                     {selectedDevice && (
                         selectedDevice.humanType === "Air Purifier" ? (
                             <AirPurifierControlModal
+                                device={selectedDevice}
+                                onClose={() => setSelectedDevice(null)}
+                                onChange={handleDeviceChange}
+                            />
+                        ) : selectedDevice.humanType === "Thermostat" ? (
+                            <HeaterControlModal
                                 device={selectedDevice}
                                 onClose={() => setSelectedDevice(null)}
                                 onChange={handleDeviceChange}
