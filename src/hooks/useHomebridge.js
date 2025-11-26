@@ -43,6 +43,9 @@ export default function useHomebridge() {
     const [devices, setDevices] = useState([]);
     const [loading, setLoading] = useState(true);
     const [token, setToken] = useState(null);
+    const updateLocalDevice = (deviceId, updates) => {
+        setDevices(prev => prev.map(dev => dev.id === deviceId ? { ...dev, ...updates } : dev));
+    };
 
     useEffect(() => {
         async function fetchToken() {
@@ -159,5 +162,5 @@ export default function useHomebridge() {
         }
     };
 
-    return { devices, loading, toggleDevice, updateDeviceSettings };
+    return { devices, loading, toggleDevice, updateDeviceSettings, updateLocalDevice };
 }
